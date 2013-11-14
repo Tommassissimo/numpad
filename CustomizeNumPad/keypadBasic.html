@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Keypad</title>
+<link type="text/css" href="jquery.keypad.alt.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!--
+<script type="text/javascript" src="jquery.keypad.js"></script>
+ -->
+<script type="text/javascript">
+//$(function () {
+//	console.log("Ciaociao");
+//	$('#defaultKeypad').keypad();
+//	$('#keypad').keypad({showOn: 'both', randomiseNumeric: true});
+//})
+$(document).ready(function(){
+                  $('body').click(function(e){
+                                  console.log($(e.target).attr("class"));
+                                  if($.inArray('needkeypad',$(e.target).attr('class'))){
+                                  var time = new Date();
+                                  window.location="EJSNumPad://numpadpopover/location?x="+e.pageX+"&y="+e.pageY+"&id="+e.target.id+"&time="+time;
+                                  }
+                                  
+                                  });
+                  
+                  });
+
+</script>
+</head>
+<body>
+<h1>jQuery Keypad Basics</h1>
+<p><input type="text" class="needkeypad" id="defaultKeypad" readonly="true"></p>
+<p><input type="number" id="keypad" readonly="true" style="float:right">
+</p>
+
+<p>The keypad functionality can easily be added to a text field with appropriate default settings. Use it with a password field for more secure text entry.
+You can also remove the keypad widget if it is no longer required.
+iOS (previously iPhone OS) is a mobile operating system developed and distributed by Apple Inc. Originally unveiled in 2007 for the iPhone, it has been extended to support other Apple devices such as the iPod Touch (September 2007), iPad (January 2010), iPad Mini (November 2012) and second-generation Apple TV (September 2010). Unlike Microsoft's Windows Phone and Google's Android, Apple does not license iOS for installation on non-Apple hardware. As of October 2013, Apple's App Store contained more than 1 million iOS applications, 475,000 of which were optimised for iPad.[5] These apps have collectively been downloaded more than 60 billion times.[6] It had a 21% share of the smartphone mobile operating system units shipped in the fourth quarter of 2012, behind only Google's Android.[7] In June 2012, it accounted for 65% of mobile web data consumption (including use on both the iPod Touch and the iPad).[8] At the half of 2012, there were 410 million devices activated.[9] According to the special media event held by Apple on September 12, 2012, 400 million devices had been sold by June 2012.[10]
+The user interface of iOS is based on the concept of direct manipulation, using multi-touch gestures. Interface control elements consist of sliders, switches, and buttons. Interaction with the OS includes gestures such as swipe, tap, pinch, and reverse pinch, all of which have specific definitions within the context of the iOS operating system and its multi-touch interface. Internal accelerometers are used by some applications to respond to shaking the device (one common result is the undo command) or rotating it in three dimensions (one common result is switching from portrait to landscape mode).
+iOS is derived from OS X, with which it shares the Darwin foundation and various application frameworks. iOS is Apple's mobile version of the OS X operating system used on Apple computers.
+<input type="text" class="needkeypad" id="Keypad2" readonly="true">
+Major versions of iOS are released annually. The current release, iOS 7, was released on September 18, 2013. In iOS, there are four abstraction layers: the Core OS layer, the Core Services layer, the Media layer, and the Cocoa Touch layer. The current version of the operating system (iOS 7.0.3), dedicates 1–1.5 GB of the device's flash memory for the system partition, using roughly 800 MB of that partition (varying by model) for iOS itself.[11][12] It runs on the iPhone 4 and later, 2nd-generation iPad and later, all models of the iPad Mini, the 5th-generation iPod Touch, and Apple TV.
+<input type="text" class="needkeypad" id="Keypad3" readonly="true">
+</body>
+</html>
+
+

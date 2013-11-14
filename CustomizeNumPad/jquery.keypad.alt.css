@@ -1,0 +1,33 @@
+/* Alternate style sheet for jQuery Keypad v1.5.1. */
+
+.keypad-popup {
+        display:none;
+        font-family: Arial,Helvetica,sans-serif;
+        z-index: 10;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        paddding-right:10px;
+        background-color: #ebeded;
+              -webkit-border-radius: 10px;
+}
+.keypad-key, .keypad-special {
+        background-color: white;
+        border: 0px;
+        margin: 0.25em;
+        padding: 0.25em;
+        width: 4em;
+        height: 4em;
+        text-align: center;
+        color:black;
+        font-size:18px;
+        -webkit-border-radius: 10px;
+        font-weight:100;
+}
+
+.keypad-close{
+	width: 8.25em;
+}
+

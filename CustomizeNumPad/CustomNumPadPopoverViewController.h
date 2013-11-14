@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomNumPadPopoverViewController.h
 //  CustomizeNumPad
 //
 //  Created by jiayi zhou on 10/31/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomNumPadPopoverController.h"
 
-@interface ViewController : UIViewController
+@interface CustomNumPadPopoverViewController : UIViewController
 
 @end

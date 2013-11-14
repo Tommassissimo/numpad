@@ -21,6 +21,14 @@
 		130035FA1822AA37002AF00C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130035DC1822AA37002AF00C /* UIKit.framework */; };
 		130036021822AA37002AF00C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 130036001822AA37002AF00C /* InfoPlist.strings */; };
 		130036041822AA37002AF00C /* CustomizeNumPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130036031822AA37002AF00C /* CustomizeNumPadTests.m */; };
+		130036151822B693002AF00C /* CustomNumPadPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130036141822B693002AF00C /* CustomNumPadPopoverController.m */; };
+		1310F1B6182BA8800041D644 /* jquery-2.0.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1B2182BA8800041D644 /* jquery-2.0.3.min.js */; };
+		1310F1BB182BD0F70041D644 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1BA182BD0F70041D644 /* test.html */; };
+		1310F1BF182BFF4E0041D644 /* jquery.keypad.alt.css in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1BC182BFF4E0041D644 /* jquery.keypad.alt.css */; };
+		1310F1C0182BFF4E0041D644 /* jquery.keypad.js in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1BD182BFF4E0041D644 /* jquery.keypad.js */; };
+		1310F1C1182BFF4E0041D644 /* keypadBasic.html in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1BE182BFF4E0041D644 /* keypadBasic.html */; };
+		1310F1C5182C063A0041D644 /* numpad.js in Resources */ = {isa = PBXBuildFile; fileRef = 1310F1C4182C063A0041D644 /* numpad.js */; };
+		1377FD7E1828028B005DF07D /* facebook.html in Resources */ = {isa = PBXBuildFile; fileRef = 1377FD7D1828028B005DF07D /* facebook.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		130035FF1822AA37002AF00C /* CustomizeNumPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizeNumPadTests-Info.plist"; sourceTree = "<group>"; };
 		130036011822AA37002AF00C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		130036031822AA37002AF00C /* CustomizeNumPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeNumPadTests.m; sourceTree = "<group>"; };
+		130036131822B693002AF00C /* CustomNumPadPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNumPadPopoverController.h; sourceTree = "<group>"; };
+		130036141822B693002AF00C /* CustomNumPadPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNumPadPopoverController.m; sourceTree = "<group>"; };
+		1310F1B2182BA8800041D644 /* jquery-2.0.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.0.3.min.js"; sourceTree = "<group>"; };
+		1310F1BA182BD0F70041D644 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		1310F1BC182BFF4E0041D644 /* jquery.keypad.alt.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.keypad.alt.css; sourceTree = "<group>"; };
+		1310F1BD182BFF4E0041D644 /* jquery.keypad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.keypad.js; sourceTree = "<group>"; };
+		1310F1BE182BFF4E0041D644 /* keypadBasic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = keypadBasic.html; sourceTree = "<group>"; };
+		1310F1C4182C063A0041D644 /* numpad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = numpad.js; sourceTree = "<group>"; };
+		1377FD7D1828028B005DF07D /* facebook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebook.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +129,7 @@
 		130035DE1822AA37002AF00C /* CustomizeNumPad */ = {
 			isa = PBXGroup;
 			children = (
+				1300360D1822B5B4002AF00C /* NumPadPopover */,
 				130035E71822AA37002AF00C /* AppDelegate.h */,
 				130035E81822AA37002AF00C /* AppDelegate.m */,
 				130035EA1822AA37002AF00C /* Main.storyboard */,
@@ -126,10 +144,17 @@
 		130035DF1822AA37002AF00C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1310F1BC182BFF4E0041D644 /* jquery.keypad.alt.css */,
+				1310F1BD182BFF4E0041D644 /* jquery.keypad.js */,
+				1310F1BE182BFF4E0041D644 /* keypadBasic.html */,
+				1310F1BA182BD0F70041D644 /* test.html */,
+				1310F1B2182BA8800041D644 /* jquery-2.0.3.min.js */,
+				1377FD7D1828028B005DF07D /* facebook.html */,
 				130035E01822AA37002AF00C /* CustomizeNumPad-Info.plist */,
 				130035E11822AA37002AF00C /* InfoPlist.strings */,
 				130035E41822AA37002AF00C /* main.m */,
 				130035E61822AA37002AF00C /* CustomizeNumPad-Prefix.pch */,
+				1310F1C4182C063A0041D644 /* numpad.js */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +175,15 @@
 				130036001822AA37002AF00C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1300360D1822B5B4002AF00C /* NumPadPopover */ = {
+			isa = PBXGroup;
+			children = (
+				130036131822B693002AF00C /* CustomNumPadPopoverController.h */,
+				130036141822B693002AF00C /* CustomNumPadPopoverController.m */,
+			);
+			name = NumPadPopover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1310F1BB182BD0F70041D644 /* test.html in Resources */,
 				130035F11822AA37002AF00C /* Images.xcassets in Resources */,
 				130035E31822AA37002AF00C /* InfoPlist.strings in Resources */,
+				1377FD7E1828028B005DF07D /* facebook.html in Resources */,
 				130035EC1822AA37002AF00C /* Main.storyboard in Resources */,
+				1310F1B6182BA8800041D644 /* jquery-2.0.3.min.js in Resources */,
+				1310F1C0182BFF4E0041D644 /* jquery.keypad.js in Resources */,
+				1310F1C5182C063A0041D644 /* numpad.js in Resources */,
+				1310F1BF182BFF4E0041D644 /* jquery.keypad.alt.css in Resources */,
+				1310F1C1182BFF4E0041D644 /* keypadBasic.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130035EF1822AA37002AF00C /* ViewController.m in Sources */,
+				130036151822B693002AF00C /* CustomNumPadPopoverController.m in Sources */,
 				130035E91822AA37002AF00C /* AppDelegate.m in Sources */,
 				130035E51822AA37002AF00C /* main.m in Sources */,
 			);
@@ -462,6 +504,7 @@
 				130036091822AA37002AF00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1300360A1822AA37002AF00C /* Build configuration list for PBXNativeTarget "CustomizeNumPadTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +513,7 @@
 				1300360C1822AA37002AF00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
